@@ -1,0 +1,37 @@
+# Windows operációs rendszer által generált fájlok
+Thumbs.db
+ehthumbs.db
+
+# Visual Studio ideiglenes fájlok és mappák
+.vs/
+.vs2019/
+.vs2017/
+.idea/
+
+# Build eredmények
+bin/
+obj/
+out/
+
+# NuGet csomagok
+*.nupkg
+# Különböző konfigurációs fájlok
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# JetBrains Rider fájlok (ha használod)
+.idea/
+
+# ASP.NET Core fázisok és napi naplók
+logs/
+*.log
+
+# macOS specifikus fájlok
+.DS_Store
+
+# Különböző IDE-k által generált fájlok
+.vscode/
+
+# other
+feladat_forras.txt
