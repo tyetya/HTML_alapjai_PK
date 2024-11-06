@@ -6,6 +6,46 @@
     <title>Kapcsolat</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <div class="szoveg">
+                <a href="./index.html#szoveg">HTML alapjai szöveg</a>
+            </div>        
+            <div class="kepek">
+                <a href="./index.html#kepek">Képek és multimédia</a>
+            </div>
+            <div class="tablazat">
+                <a href="./index.html#tablazat">Táblázatok</a>
+            </div>
+            <div class="kapcsolat">
+                <a href="./kapcsolat.html">Kapcsolat</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Írj nekünk!</h3>
+            <div class="urlap">
+                <form action="https://formspree.io/f/mqakqpwr" method="post">
+                    <label for="nev">Név:
+                        <input id="nev" name="nev" type="text" placeholder="Név">
+                    </label>
+                    <label for="email">Email címed: 
+                        <input id="email" name="email" type="email" placeholder="Email">
+                    </label>
+                    <label for="uzenet">Üzenet nekünk:
+                        <textarea name="uzenet" id="uzenet" placeholder="Üzenet"></textarea>
+                        
+                    </label>
+                    <label for="surgos">Sürgős:
+                        <input id="surgos" name="surgos" type="checkbox" class="surgos">
+                    </label>
+                    <label for="submit">Beküldés
+                        <input id="submit" name="submit" type="submit" value="send">
+                    </label>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
